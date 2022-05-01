@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>Courses</title>
+<style type="text/css">
+h2{font-size:45; color:#ffb6c1;}
+h1{font-size:55; color:#000000;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<body >
+
+<div class="navbar">
+<a href="Homepage.html"><b>Homepage</b></a>
+  <a href="ITfuture.html"><b>IT FUTURE</b></a>
+  <a href="Courses.html"><b>Courses</b></a>
+   <a href="Achievements.html" ><b>Achievements</b></a>
+  <a href="Student Registration.html"><b>StudentRegistration</b></a>
+ <a href="login.html"><b>LOGIN</b></a>
+</div>
+<div style="text-align:center">
+  <h1>IT Future Campus</h1>
+  <h2>Courses are below</h2>
+</div>
+
+<div class="row">
+  <div class="column">
+  
+	<img src="pic2.jpg" width="340" height="250" align="left">
+	<img src="pic1.jpg" width="340" height="250" align="left">
+	<img src="pic9.jpg" width="340" height="250" align="left">
+	
+  </div>
+  <div class="column">
+  <ul >
+	<li><b>Diploma in ICT for Juniors</b></li><br>
+	<ol>
+	<li>Ms Paint</li>
+	<li>Ms word</li>
+	<li>Presentation</li>
+	<li>Little engineer</li>
+	<li>Little Programmer</li>
+	<li>Chess</li>
+	</ol>
+	<br>
+	<li><b>Diploma in Desktop <br>Publishing</b></li><br>
+	<ol>
+	<li>Typing Master</li>
+	<li>Corel DRAW</li>
+	<li>Adobe Page Maker</li>
+	<li>Adobe Photoshop</li>
+	<li>Microsoft Publisher</li>
+
+	</ol><br>
+	<li><b>Diploma in Web Designing</b></li><br>
+	<ol>
+	<li>HTML & CSS</li>
+	<li>Java Script</li>
+	<li>PHP & MYSQL</li>
+	<li>Adobe Dream Weaver</li>
+	<li>Web Project</li>
+
+	</ol>
+	<br>
+	<li><b>Diploma in Communication Studies</b></li><br>
+	
+	<ol>
+	<li>English</li>
+	<li>Speaking</li>
+	<li>Reading</li>
+	<li>Written Structure</li>
+	<li>Sinhala</li>
+	</ol>
+	
+  </ul>	
+  
+  
+  </div>
+  
+   <div class="column">
+  <ul>
+	<li><b>Diploma in Computerized Accounting</b></li><br>
+	<ol>
+	<li>Manual Accounting</li>
+	<li>Simply Accounting</li>
+	<li>MYOB</li>
+	<li>Quick Book</li>
+	<li>Tally</li>
+	</ol><br>
+ 
+  <li><b>Diploma in Hardware Technology</b></li><br>
+	<ol>
+	<li>OS installation</li>
+	<li>OS Fundamentals</li>
+	<li>Trouble Shooting</li>
+	<li>Networking</li>
+	<li>Assembling</li>
+	</ol>
+	<br>
+	<li><b>Diploma in Computer Programming</b></li><br>
+	<ol>
+	<li>C,C++</li>
+	<li>Java</li>
+	<li>VB.net</li>
+	<li>MY SQL</li>
+	<li>Oracle</li>
+	</ol>
+	<br>
+	<li><b>Diploma In Graphic Designing</b></li><br>
+	<ol>
+	
+	<li>Adobe Photo Shop</li>
+	<li>Adobe Flash</li>
+	<li>GIMP</li>
+	<li>Corel Photopaint</li>
+	</ol>
+	
+   </ul>	
+
+  </div>
+
+
+<div class="column">
+  <img src="pic2.jpg" width="340" height="250" align="right">
+	<img src="pic1.jpg" width="340" height="250" align="right">
+	<img src="pic9.jpg" width="340" height="250" align="right">
+	
+	
+	
+	
+  
+  </div>
+
+	
+	
+	
+	 
+	
+	
+
+	
+	  
+</div>
+
+</body>

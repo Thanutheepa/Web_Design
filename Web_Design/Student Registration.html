@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>Student Registration</title>
+<style type="text/css">
+h1{font-size:35; color:red; text-align:center;}
+h2{font-size:35; color:black;}
+#paralipids{font-size:23; color:blue;}
+p{font-size:18;}
+body{
+    background-color:#6a5acd;
+	}
+	
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h3{font-size:35; color:=#dcdcdc; text-align:center;}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.lable{
+font-size:28px;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body  background="pic8.jpg">
+<div class="navbar">
+<a href="Homepage.html"><b>Homepage</b></a>
+  <a href="ITfuture.html"><b>IT FUTURE</b></a>
+  <a href="Courses.html"><b>Courses</b></a>
+   <a href="Achievements.html" ><b>Achievements</b></a>
+  <a href="Student Registration.html"><b>StudentRegistration</b></a>
+  <a href="login.html"><b>LOGIN</b></a>
+ 
+</div>
+<div class="container">
+  <h2>Student Details</h2>
+  <form>
+    <div class="form-group">
+	<b>
+      <label for="First name">First Name:</label><br>
+      <input type="text" class="form-control" id="First name" placeholder="Enter First Name" ><br>
+	   <label for="Last name">Last Name:</label><br>
+      <input type="text" class="form-control" id="Last name" placeholder="Enter Last Name"><br>
+	  <label for="Address">Address:</label><br>
+      <input type="text" class="form-control" id="Address" placeholder="Enter Address"><br>
+	  <label for="First name">Course Title:</label></b><br>
+      <select name="cars"><b>
+    <option value="volvo">Diploma in  ICT for juniors</option>
+    <option value="saab">Diploma in Computerized Accounting</option>
+    <option value="fiat">Diploma in Desktop Publishing</option>
+    <option value="audi">Diploma in Hardware Technology</option>
+	<option value="audi">Diploma in Web Designing</option>
+	<option value="audi">Diploma in Computer Programming</option>
+	<option value="audi">Diploma in Communication Studies</option>
+	<option value="audi">Diploma In Graphic Designing</option>
+	</b>
+  </select>
+  <br>
+  <b>
+	  <label for="email">Email:</label><br>
+      <input type="text" class="form-control" id="email" placeholder="Enter email" ><br>
+      <label for="pwd">Password:</label><br>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password"  maxlength="8"><br>
+</b>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+	<a href="login.html"><button type="button" class="btn btn-default">Already have an account Login</button></a>
+  </form>
+</div>
+
+</body>
+</html>
